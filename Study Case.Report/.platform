@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Study Case"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ed9d89ca-f650-4240-ab83-e44f6cb9588c"
+  }
+}

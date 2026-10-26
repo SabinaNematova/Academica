@@ -1,0 +1,1125 @@
+cultureInfo ru-RU
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "data.дата": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "ConceptualProperty": "Дата"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "дата": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "data.дата.иерархия_дат": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "VariationSource": "Дата",
+			          "VariationSet": "Изменение",
+			          "Hierarchy": "Иерархия дат"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "иерархия дат": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data.дата.год": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "VariationSource": "Дата",
+			          "VariationSet": "Изменение",
+			          "Hierarchy": "Иерархия дат",
+			          "HierarchyLevel": "Год"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "год": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "дата год": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data.дата.квартал": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "VariationSource": "Дата",
+			          "VariationSet": "Изменение",
+			          "Hierarchy": "Иерархия дат",
+			          "HierarchyLevel": "Квартал"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "квартал": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "дата квартал": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data.дата.месяц": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "VariationSource": "Дата",
+			          "VariationSet": "Изменение",
+			          "Hierarchy": "Иерархия дат",
+			          "HierarchyLevel": "Месяц"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "месяц": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "дата месяц": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data.дата.день": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "VariationSource": "Дата",
+			          "VariationSet": "Изменение",
+			          "Hierarchy": "Иерархия дат",
+			          "HierarchyLevel": "День"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "день": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "дата день": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data.склад": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "ConceptualProperty": "Склад"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "склад": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data.контрагент": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "ConceptualProperty": "Контрагент"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "контрагент": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data.номенклатура": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "ConceptualProperty": "Номенклатура"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "номенклатура": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data.количество": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "data",
+			          "ConceptualProperty": "Количество"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "количество": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "abc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ABC"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "abc": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "abc.номенклатура": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ABC",
+			          "ConceptualProperty": "Номенклатура"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "номенклатура": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "abc.сумма_продаж": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ABC",
+			          "ConceptualProperty": "Сумма продаж"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "сумма продаж": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Количество продаж": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "abc.доля": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ABC",
+			          "ConceptualProperty": "Доля"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "доля": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "abc.накоп_доля": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ABC",
+			          "ConceptualProperty": "НакопДоля"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "накоп доля": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "НакопДоля": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "abc.категория": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ABC",
+			          "ConceptualProperty": "Категория"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "категория": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "data_дата_месяц_has_data_дата_день": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data.дата.месяц": {
+			          "Target": {
+			            "Entity": "data.дата.месяц"
+			          }
+			        },
+			        "data.дата.день": {
+			          "Target": {
+			            "Entity": "data.дата.день"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.дата.месяц"
+			            },
+			            "Object": {
+			              "Role": "data.дата.день"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "месяц_have_день"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.дата.день"
+			            },
+			            "Object": {
+			              "Role": "data.дата.месяц"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "день_have_месяц"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "data.дата.день"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "data.дата.месяц"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "день_are_in_месяц"
+			        }
+			      ]
+			    },
+			    "data_дата_квартал_has_data_дата_месяц": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data.дата.квартал": {
+			          "Target": {
+			            "Entity": "data.дата.квартал"
+			          }
+			        },
+			        "data.дата.месяц": {
+			          "Target": {
+			            "Entity": "data.дата.месяц"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.дата.квартал"
+			            },
+			            "Object": {
+			              "Role": "data.дата.месяц"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "квартал_have_месяц"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.дата.месяц"
+			            },
+			            "Object": {
+			              "Role": "data.дата.квартал"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "месяц_have_квартал"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "data.дата.месяц"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "data.дата.квартал"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "месяц_are_in_квартал"
+			        }
+			      ]
+			    },
+			    "data_дата_год_has_data_дата_квартал": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data.дата.год": {
+			          "Target": {
+			            "Entity": "data.дата.год"
+			          }
+			        },
+			        "data.дата.квартал": {
+			          "Target": {
+			            "Entity": "data.дата.квартал"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.дата.год"
+			            },
+			            "Object": {
+			              "Role": "data.дата.квартал"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "год_have_квартал"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.дата.квартал"
+			            },
+			            "Object": {
+			              "Role": "data.дата.год"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "квартал_have_год"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "data.дата.квартал"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "data.дата.год"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "квартал_are_in_год"
+			        }
+			      ]
+			    },
+			    "data_дата_иерархия_дат_has_data_дата_день": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data.дата.иерархия_дат": {
+			          "Target": {
+			            "Entity": "data.дата.иерархия_дат"
+			          }
+			        },
+			        "data.дата.день": {
+			          "Target": {
+			            "Entity": "data.дата.день"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.дата.иерархия_дат"
+			            },
+			            "Object": {
+			              "Role": "data.дата.день"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "иерархия_дат_have_день"
+			        }
+			      ]
+			    },
+			    "data_дата_иерархия_дат_has_data_дата_месяц": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data.дата.иерархия_дат": {
+			          "Target": {
+			            "Entity": "data.дата.иерархия_дат"
+			          }
+			        },
+			        "data.дата.месяц": {
+			          "Target": {
+			            "Entity": "data.дата.месяц"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.дата.иерархия_дат"
+			            },
+			            "Object": {
+			              "Role": "data.дата.месяц"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "иерархия_дат_have_месяц"
+			        }
+			      ]
+			    },
+			    "data_дата_иерархия_дат_has_data_дата_квартал": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data.дата.иерархия_дат": {
+			          "Target": {
+			            "Entity": "data.дата.иерархия_дат"
+			          }
+			        },
+			        "data.дата.квартал": {
+			          "Target": {
+			            "Entity": "data.дата.квартал"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.дата.иерархия_дат"
+			            },
+			            "Object": {
+			              "Role": "data.дата.квартал"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "иерархия_дат_have_квартал"
+			        }
+			      ]
+			    },
+			    "data_дата_иерархия_дат_has_data_дата_год": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data.дата.иерархия_дат": {
+			          "Target": {
+			            "Entity": "data.дата.иерархия_дат"
+			          }
+			        },
+			        "data.дата.год": {
+			          "Target": {
+			            "Entity": "data.дата.год"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.дата.иерархия_дат"
+			            },
+			            "Object": {
+			              "Role": "data.дата.год"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "иерархия_дат_have_год"
+			        }
+			      ]
+			    },
+			    "data_дата_has_иерархия_дат": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data.дата": {
+			          "Target": {
+			            "Entity": "data.дата"
+			          }
+			        },
+			        "data.дата.иерархия_дат": {
+			          "Target": {
+			            "Entity": "data.дата.иерархия_дат"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data.дата"
+			            },
+			            "Object": {
+			              "Role": "data.дата.иерархия_дат"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "дата_have_иерархия_дат"
+			        }
+			      ]
+			    },
+			    "data_has_abc": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "abc": {
+			          "Target": {
+			            "Entity": "abc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "abc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_abcs"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "abc"
+			            },
+			            "Object": {
+			              "Role": "data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "abcs_have_data"
+			        }
+			      ]
+			    },
+			    "abc_has_категория": {
+			      "Binding": {
+			        "ConceptualEntity": "ABC"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "abc": {
+			          "Target": {
+			            "Entity": "abc"
+			          }
+			        },
+			        "abc.категория": {
+			          "Target": {
+			            "Entity": "abc.категория"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "abc"
+			            },
+			            "Object": {
+			              "Role": "abc.категория"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "abcs_have_категория"
+			        }
+			      ]
+			    },
+			    "abc_has_накоп_доля": {
+			      "Binding": {
+			        "ConceptualEntity": "ABC"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "abc": {
+			          "Target": {
+			            "Entity": "abc"
+			          }
+			        },
+			        "abc.накоп_доля": {
+			          "Target": {
+			            "Entity": "abc.накоп_доля"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "abc"
+			            },
+			            "Object": {
+			              "Role": "abc.накоп_доля"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "abcs_have_накоп_доля"
+			        }
+			      ]
+			    },
+			    "abc_has_доля": {
+			      "Binding": {
+			        "ConceptualEntity": "ABC"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "abc": {
+			          "Target": {
+			            "Entity": "abc"
+			          }
+			        },
+			        "abc.доля": {
+			          "Target": {
+			            "Entity": "abc.доля"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "abc"
+			            },
+			            "Object": {
+			              "Role": "abc.доля"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "abcs_have_доля"
+			        }
+			      ]
+			    },
+			    "abc_has_сумма_продаж": {
+			      "Binding": {
+			        "ConceptualEntity": "ABC"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "abc": {
+			          "Target": {
+			            "Entity": "abc"
+			          }
+			        },
+			        "abc.сумма_продаж": {
+			          "Target": {
+			            "Entity": "abc.сумма_продаж"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "abc"
+			            },
+			            "Object": {
+			              "Role": "abc.сумма_продаж"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "abcs_have_сумма_продаж"
+			        }
+			      ]
+			    },
+			    "abc_has_номенклатура": {
+			      "Binding": {
+			        "ConceptualEntity": "ABC"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "abc": {
+			          "Target": {
+			            "Entity": "abc"
+			          }
+			        },
+			        "abc.номенклатура": {
+			          "Target": {
+			            "Entity": "abc.номенклатура"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "abc"
+			            },
+			            "Object": {
+			              "Role": "abc.номенклатура"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "abcs_have_номенклатура"
+			        }
+			      ]
+			    },
+			    "data_has_количество": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.количество": {
+			          "Target": {
+			            "Entity": "data.количество"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.количество"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_количество"
+			        }
+			      ]
+			    },
+			    "data_has_контрагент": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.контрагент": {
+			          "Target": {
+			            "Entity": "data.контрагент"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.контрагент"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_контрагент"
+			        }
+			      ]
+			    },
+			    "data_has_склад": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.склад": {
+			          "Target": {
+			            "Entity": "data.склад"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.склад"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_склад"
+			        }
+			      ]
+			    },
+			    "data_has_дата": {
+			      "Binding": {
+			        "ConceptualEntity": "data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.дата": {
+			          "Target": {
+			            "Entity": "data.дата"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.дата"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_дата"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

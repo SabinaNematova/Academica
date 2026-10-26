@@ -1,0 +1,223 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.10.0/schema.json",
+  "name": "b2c1dec93347a0f76499",
+  "position": {
+    "x": 296.25,
+    "y": 127.5,
+    "z": 17001,
+    "height": 662.5,
+    "width": 306.25,
+    "tabOrder": 17001
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ABC"
+                    }
+                  },
+                  "Property": "Номенклатура"
+                }
+              },
+              "queryRef": "ABC.Номенклатура",
+              "nativeQueryRef": "Номенклатура"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ABC"
+                    }
+                  },
+                  "Property": "Сумма продаж"
+                }
+              },
+              "queryRef": "ABC.Сумма продаж",
+              "nativeQueryRef": "Количество продаж",
+              "displayName": "Количество продаж"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ABC"
+                    }
+                  },
+                  "Property": "Категория"
+                }
+              },
+              "queryRef": "ABC.Категория",
+              "nativeQueryRef": "Категория"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "ABC"
+                  }
+                },
+                "Property": "Сумма продаж"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "74.30212537774524D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "ABC.Категория"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "103.00000043022901D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "ABC.Сумма продаж"
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {}
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'ABC анализ товаров'"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "13D"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "5f9e12975d3d968efd2f",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "ABC"
+              }
+            },
+            "Property": "Номенклатура"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "09b15c7f9eca06ace506",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "ABC"
+              }
+            },
+            "Property": "Сумма продаж"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "e71e8cf19bc60ab60f70",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "ABC"
+              }
+            },
+            "Property": "Категория"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

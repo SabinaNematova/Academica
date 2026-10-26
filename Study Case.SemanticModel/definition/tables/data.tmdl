@@ -1,0 +1,69 @@
+table data
+	lineageTag: a591cf52-bee5-4acc-9f78-f606384f41a6
+
+	column Дата
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: a6fdfefe-f602-40ab-a95e-1e5f349ecbbf
+		summarizeBy: none
+		sourceColumn: Дата
+
+		variation Изменение
+			isDefault
+			relationship: bb23c0f3-0740-40fc-8fbc-55e37ffafc6e
+			defaultHierarchy: LocalDateTable_a12008f2-7208-4eae-be0c-98336de01dc8.'Иерархия дат'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Склад
+		dataType: int64
+		formatString: 0
+		lineageTag: 53bd609c-fe23-4e1a-85aa-5edae5ab9b25
+		summarizeBy: sum
+		sourceColumn: Склад
+
+		annotation SummarizationSetBy = Automatic
+
+	column Контрагент
+		dataType: string
+		lineageTag: 30d77292-cad6-4191-a4a8-6ef646298c0b
+		summarizeBy: none
+		sourceColumn: Контрагент
+
+		annotation SummarizationSetBy = Automatic
+
+	column Номенклатура
+		dataType: string
+		lineageTag: 435b54b7-9a7d-408d-beb7-e0bb4cdb7189
+		summarizeBy: none
+		sourceColumn: Номенклатура
+
+		annotation SummarizationSetBy = Automatic
+
+	column Количество
+		dataType: int64
+		formatString: 0
+		lineageTag: 64348603-02ac-4838-8935-4d9bbda9081d
+		summarizeBy: sum
+		sourceColumn: Количество
+
+		annotation SummarizationSetBy = Automatic
+
+	partition data = m
+		mode: import
+		source =
+				let
+				    Источник = Csv.Document(File.Contents("C:\Users\sabina_nematava\Downloads\data.csv"),[Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Повышенные заголовки" = Table.PromoteHeaders(Источник, [PromoteAllScalars=true]),
+				    #"Измененный тип" = Table.TransformColumnTypes(#"Повышенные заголовки",{{"Дата", type date}, {"Склад", Int64.Type}, {"Контрагент", type text}, {"Номенклатура", type text}, {"Количество", Int64.Type}}),
+				    #"Измененный тип с языком" = Table.TransformColumnTypes(#"Измененный тип", {{"Дата", type date}}, "ru-RU"),
+				    #"Строки с примененным фильтром" = Table.SelectRows(#"Измененный тип с языком", each true)
+				in
+				    #"Строки с примененным фильтром"
+
+	annotation PBI_NavigationStepName = Навигация
+
+	annotation PBI_ResultType = Table
+
